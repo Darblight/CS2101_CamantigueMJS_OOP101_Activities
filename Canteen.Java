@@ -73,7 +73,7 @@ public class Canteen {
                 totalBeforeDeduction += orderAmount;
                 totalDeduction += deduction;
 
-                // Summary of Orders
+                // Summary of Order
                 System.out.printf("%nSubtotal: $%.2f%n", orderAmount);
                 System.out.printf("Discount: $%.2f%n", deduction);
                 System.out.printf("Order total: $%.2f%n%n", orderTotal);
