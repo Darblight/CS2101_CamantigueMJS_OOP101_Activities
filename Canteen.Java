@@ -79,7 +79,7 @@ public class Canteen {
                 System.out.printf("Order total: $%.2f%n%n", orderTotal);
             }
 
-            // Anything else you woul like to order?
+            // Anything else you would like to order?
             System.out.print("Do you want to order again? (Y/N): ");
             char again = sc.next().toUpperCase().charAt(0);
             if (again == 'N') break;
